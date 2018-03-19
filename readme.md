@@ -32,7 +32,7 @@ Submitted files:
 
 I started by reading in all the vehicle and non-vehicle images. Here is an example of one of each of the vehicle and non-vehicle classes:
 
-![Car not car](output_images\car-notcar.png)
+![Car not car](output_images/car-notcar.png)
 
 Figure 1 Car and not car example
 
@@ -103,19 +103,19 @@ Following thresholds are used for scaling and height limits
 4. Get labels from the heat map, by using scipy.ndimage.measurements&#39;s label method
 5. Draw the final boxes (rectangles) over the frame
 
-![Actual Image](output_images\actualimage.png)
+![Actual Image](output_images/actualimage.png)
 
 Figure 2 Actual Image
 
-![Processed Image](output_images\raw-detection.png)
+![Processed Image](output_images/raw-detection.png)
 
 Figure 3 Raw Detection
 
-![Processed Image](output_images\heatmap.png)
+![Processed Image](output_images/heatmap.png)
 
 Figure 4 Heat-map
 
-![Processed Image](output_images\final-output.png)
+![Processed Image](output_images/final-output.png)
 
 Figure 5 Final Output
 
@@ -125,7 +125,7 @@ The frame processing is done to 1/3 of the frames only, and for remaining 2/3 fr
 
 **Methods: get\_labels, draw\_boxes, draw\_labeled\_bboxes**
 
-![Processed Image](output_images\actual-vs-processed.png)
+![Processed Image](output_images/actual-vs-processed.png)
 Figure 6 Actual vs Processed Images
 
 ## Pipeline (Video)

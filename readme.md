@@ -133,7 +133,7 @@ Figure 6 Actual vs Processed Images
 
 The pipeline worked pretty good on the given video.
 
-Output video name is: **output\_project\_video.mp4**
+Output video is: https://github.com/neerajgulia/CarND-Vehicle-Detection-and-Training/blob/master/output_project_video.mp4
 
 ## Discussions
 
@@ -145,7 +145,7 @@ Also, I did not like the fact that most of the code has been provided by Udacity
 
 ## Problem faced:
 
-I struggled for two days to teak the hyper parameters (My pipeline was ready by Tuesday morning). At one moment I was about to abandon the SVM way and to go for Deep Learning approach.
+I struggled for two days to tweak the hyper parameters. At one moment I was about to abandon the SVM and implement Deep Learning approach.
 
 ## References:
 
